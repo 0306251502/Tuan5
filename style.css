@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Quanly{
+    width:100%;
+    min-height:100%
+}
+header{
+    text-align: center;
+    color:white;
+    background-color:green;
+}
+header h1{
+    padding:25px 0px;
+    margin:0;
+}
+.list{
+    background-color: black;
+    margin:0;
+}
+nav ul{
+    color:white;
+    padding:15px 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.list nav ul li .list_color{
+    text-decoration: none;
+    color:white;
+    transition: color 0.5s ;
+}
+.list nav ul li .list_color:hover{
+    color:aquamarine;
+}
+.content{
+    background-color: rgb(253, 247, 239);
+    flex:1;
+}
+.content_top{
+
+    line-height: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size:20px;
+    padding-top:20px;
+}
+.border_setup{
+    padding:10px 2cm;
+    line-height: 10px;
+    padding:20px 3cm;
+    background-color: rgb(242, 240, 237);
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+   display:flex;
+   flex-direction: column ;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+.border_setup .so{
+    color:green;
+    margin-top: 15px;
+}
+.content_bot{
+    margin-top: 20px;
+}
+.content_bot h3{
+    margin: bottom 2px;
+    margin-left:1cm;
+}
+.content_bot table{
+  width:90%;
+  border-collapse: collapse;
+  text-align: left;
+  margin:20px auto;
+}
+.title_table{
+    background-color: rgb(49, 148, 49);
+    color:white;
+    padding:10px 0px;
+}
+.content_bot table th{
+    padding:10px 0px;
+}
+
+.content_bot table td{
+    padding:7px 0px;
+}
+.content_bot table td button{
+    padding:4px 8px;
+    background-color: rgb(35, 154, 35);
+    color:white;
+    border:0px;
+    border-radius: 5px;
+}
+footer{
+    margin-top:2cm;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(134, 156, 175);
+    padding:5px ;
+}
